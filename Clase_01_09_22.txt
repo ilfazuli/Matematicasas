@@ -1,0 +1,44 @@
+ABRIR CON JUPYTER PROBLEMAS DE LA GUIA 2 DE MATEMATICAS
+
+Problema 3
+
+a) Expresiones 
+
+
+$S_{n}=6 \cdot n$
+
+
+
+$t_{n}=13 \cdot n$
+
+
+-----------------------------------------
+
+b) 
+
+i)  $\displaystyle\sum_{i=35}^{61}S_{n}$
+
+
+-----------------------------------------
+suma= 0
+for n in range(35,62):
+    termino = 6*n 
+    suma = suma + termino
+print("Resultado2: ",suma)
+
+
+-------------------------------------------
+b) 
+
+ii)  $\displaystyle\sum_{i=15}^{36}T_{n}$ 
+
+
+-------------------------------------
+
+suma= 0
+for n in range(15,37):
+    termino = 13*n 
+    suma = suma + termino
+print("Resultado2: ",suma)
+
+
